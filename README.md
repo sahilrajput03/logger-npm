@@ -22,4 +22,10 @@ logger.err(data)
 # FOR MIDDLEWARE
 const {logMw} = require('@sahil/logger')
 app.use(logMw)
+
+# FOR SETTING UP MY FAVOURITE COLORS
+const {setupColors} = require('sahilrajput03-logger')
+setupColors()
+
+console.log('wowo'.mb) // To view list of available colors you can look into `lib/setupColors.js` file.
 ```
